@@ -19,72 +19,69 @@
     <div class="container">
       <div class="faqs">
         <div class="faqs-illustration">
+          <div class="desktop-img">
+            <img
+              src="./images/illustration-box-desktop.svg"
+              alt="@"
+              class="box"
+            />
+          </div>
           <img
-            src="./images/illustration-box-desktop.svg"
-            alt="@"
-            class="box"
-          />
-          <img
-            src="./images/illustration-woman-online-desktop.svg"
-            alt="question-display"
-            class="woman-desktop-display"
-          />
-          <img
-            src="./images/illustration-woman-online-desktop.svg"
+            src="./images/illustration-woman-online-mobile.svg"
             alt=""
             class="woman-mobile-display"
           />
         </div>
         <div class="faqs-questions">
           <h3 class="title">FAQ</h3>
-          <div class="question-display">
-            <p class="question">
-              How many team members can I invite?
-              <img src="./images/icon-arrow-down.svg" alt="arrow" />
-            </p>
-            <p class="answer">
-              You can invite up to 2 additional users on the Free plan. There is
-              no limit on team members for the Premium plan.
-            </p>
-          </div>
-          <div class="question-display">
-            <p class="question">
-              What is the maximum file upload size?<img
-                src="./images/icon-arrow-down.svg"
-                alt="arrow"
-              />
-            </p>
-            <p class="answer">
-              No more than 2GB. All files in your account must fit your allotted
-              storage space.
-            </p>
-          </div>
-          <div class="question-display">
-            <p class="question">
-              How do I reset my password?<img
-                src="./images/icon-arrow-down.svg"
-                alt="arrow"
-              />
-            </p>
-            <p class="answer">
-              Click “Forgot password” from the login page or “Change password”
-              from your profile page. A reset link will be emailed to you. Can I
-              cancel my subscription? Yes! Send us a message and we’ll process
-              your request no questions asked.
-            </p>
-          </div>
-          <div class="question-display">
-            <p class="question">
-              Do you provide additional support?<img
-                src="./images/icon-arrow-down.svg"
-                alt="arrow"
-              />
-            </p>
-            <p class="answer">
-              Chat and email support is available 24/7. Phone lines are open
-              during normal business hours.
-            </p>
-          </div>
+          <ul class="collapsible">
+            <li>
+              <div class="collapsible-question">
+                How many team members can I invite?
+                <img class="arrow" src="./images/icon-arrow-down.svg" alt="" />
+              </div>
+              <div class="collapsible-answer">
+                You can invite up to 2 additional users on the Free plan. There
+                is no limit on team members for the Premium plan.
+              </div>
+            </li>
+            <hr />
+            <li>
+              <div class="collapsible-question">
+                What is the maximum file upload size?
+                <img class="arrow" src="./images/icon-arrow-down.svg" alt="" />
+              </div>
+              <div class="collapsible-answer">
+                No more than 2GB. All files in your account must fit your
+                allotted storage space.
+              </div>
+            </li>
+            <hr />
+            <li>
+              <div class="collapsible-question">
+                How do I reset my password?
+                <img class="arrow" src="./images/icon-arrow-down.svg" alt="" />
+              </div>
+              <div class="collapsible-answer">
+                Click “Forgot password” from the login page or “Change password”
+                from your profile page. A reset link will be emailed to you. Can
+                I cancel my subscription? Yes! Send us a message and we’ll
+                process your request no questions asked.
+              </div>
+            </li>
+            <hr />
+            <li>
+              <div class="collapsible-question">
+                Do you provide additional support?
+                <img class="arrow" src="./images/icon-arrow-down.svg" alt="" />
+              </div>
+              <div class="collapsible-answer">
+                Chat and email support is available 24/7. Phone lines are open
+                during normal business hours.
+              </div>
+            </li>
+            <hr />
+          </ul>
         </div>
       </div>
     </div>
@@ -95,5 +92,7 @@
         >Frontend Mentor</a
       >. Coded by <a href="#">@njorogetimk</a>.
     </div>
+
+    <script src="./js/script.js"></script>
   </body>
 </html>

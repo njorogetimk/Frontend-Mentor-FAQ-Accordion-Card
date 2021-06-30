@@ -9,11 +9,23 @@
 body {
   font-family: "Kumbh Sans", sans-serif;
   font-size: 12px;
+  height: 100vh;
+  background-image: linear-gradient(to bottom, $softVioletBg, $softBlueBg);
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+ul {
+  list-style: none;
 }
 
 .attribution {
   font-size: 11px;
   text-align: center;
+  margin-top: 2rem;
   a {
     color: hsl(228, 45%, 44%);
   }
